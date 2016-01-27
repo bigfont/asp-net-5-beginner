@@ -95,3 +95,5 @@ https://en.wikipedia.org/wiki/Windows_NT_4.0
 https://en.wikipedia.org/wiki/Internet_Information_Services
 
 http://weblogs.asp.net/shijuvarghese/asp-net-mvc-vs-asp-net-web-form
+
+http://weblogs.asp.net/scottgu/introducing-asp-net-5

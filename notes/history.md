@@ -35,19 +35,23 @@ Microsoft releases ASP.NET MVC 1.0. It provides:
 
 ASP.NET MVC let us use the power of the .NET Framework with a development model that fits the Web. [Here is a terrific article][forms-vs-mvc] about the motivation behind MVC.
 
+## 2010
+
+OWIN emerges to break the bonds between ASP.NET and IIS and thereby to make "fast and light-weight frameworks and servers." (http://panesofglass.github.io/history-of-owin/#/3)
+
 ## November 2015
 
 Microsoft publishes ASP.NET Core 1.0 RC1.
 
-**Modular.** `System.Web.dll` has become a set of granular NuGet packages. This lets us use only the parts of it that we need instead of the entire kitchen sink. The advantages: security by reducing application surface area, maintenance by having fewer parts to update, and performance by removing unessential steps in the HTTP request pipeline. 
+**Unified controllers.** The Mvc and Web Api controllers now share the same base class and routing implementation. 
+
+**Modular HTTP Pipeline**. ASP.NET is no longer based on `System.Web.dll`. It has been factored into smaller assemblies that we pull down as NuGet packages and opt-in to as needed. We configure this middleware in the `Startup` class and can create our own custom middleware too. The advantages: security by reducing application surface area, maintenance by having fewer parts to update, and performance by removing unessential steps in the HTTP request pipeline. 
 
 **Flexible hosting.** Our app can live in IIS or self-host. The advantage: Microsoft no longer has a monopoly on hosting ASP.NET applications. We can expand our hosting horizons into the world of Linux.
 
 **Framework options.** Our app can target the .NET Framework 4.6 for a full-featured, supported framework on Windows; target Mono for the full-featured framework on Linux and Mac; or target .NET Core for side-by-side application versioning and a host of other features. The advantage: choice between three powerful options.
 
 **NuGet shipping & support.** Shipping via NuGet packages allows Microsoft to adopt a more rapid release schedule. Microsoft has built NuGet support right into the project.json file. The advantage: faster, more granular releases.
-
-**Unified controllers.** [TODO]
 
 **Cloud-ready.** It includes environment-based configuration and build-in dependency injection. [Why is dependency injection considered cloud-ready?]
 
