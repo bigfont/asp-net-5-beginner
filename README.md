@@ -1,6 +1,4 @@
-# asp-net-5-then-to-now
-
-This repo contains the notes and source code for a beginner level presentation on ASP.NET 5.
+This repo contains the notes and source code for an intermediate level presentation on ASP.NET Core.
 
 # Audience
 
