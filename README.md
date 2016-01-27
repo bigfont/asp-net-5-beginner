@@ -12,8 +12,8 @@ This talk covers the why and how of ASP.NET Core. We will briefly trace the hist
 
 # People
 
-About Shaun Luttin: Shaun received his Bachelor of Human Kinetics from the University of British Columbia. He then attended BCIT, where he wrote his first line of code and began a career in software. He is a Microsoft Certified Professional Developer and has twice received the MVP Award in .NET and Visual Studio technologies. In his spare time he runs a small sleight-of-hand club for youth in the Gulf Islands.
+**Shaun Luttin:** Shaun received his Bachelor of Human Kinetics from the University of British Columbia. He then attended BCIT, where he wrote his first line of code and began a career in software. He is a Microsoft Certified Professional Developer and has twice received the MVP Award in .NET and Visual Studio technologies. In his spare time he runs a small sleight-of-hand club for youth in the Gulf Islands.
 
-About Anthony Chu: Coming Soon. 
+**About Anthony Chu:** Anthony has been in web development for 20 years and his current technology stack includes ASP.NET , Angular, Node.js, and Microsoft Azure. He is a system architect at BuildDirect Technologies. He blogs at anthonychu.ca and can be found on Twitter at @nthonyChu.
 
 This repo is a work in progress. If you see anything that doesn't seem quite right, please let us know.
