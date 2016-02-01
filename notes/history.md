@@ -43,30 +43,7 @@ OWIN emerges to break the bonds between ASP.NET and IIS and thereby to make "fas
 
 Microsoft publishes ASP.NET Core 1.0 RC1.
 
-**Unified controllers.** The Mvc and Web Api controllers now share the same base class and routing implementation. 
 
-**Modular HTTP Pipeline**. ASP.NET is no longer based on `System.Web.dll`. It has been factored into smaller assemblies that we pull down as NuGet packages and opt-in to as needed. We configure this middleware in the `Startup` class and can create our own custom middleware too. The advantages: security by reducing application surface area, maintenance by having fewer parts to update, and performance by removing unessential steps in the HTTP request pipeline. 
-
-**Flexible hosting.** Our app can live in IIS or self-host. The advantage: Microsoft no longer has a monopoly on hosting ASP.NET applications. We can expand our hosting horizons into the world of Linux.
-
-**Framework options.** Our app can target the .NET Framework 4.6 for a full-featured, supported framework on Windows; target Mono for the full-featured framework on Linux and Mac; or target .NET Core for side-by-side application versioning and a host of other features. The advantage: choice between three powerful options.
-
-**NuGet shipping & support.** Shipping via NuGet packages allows Microsoft to adopt a more rapid release schedule. Microsoft has built NuGet support right into the project.json file. The advantage: faster, more granular releases.
-
-**Cloud-ready.** It includes environment-based configuration and build-in dependency injection. [Why is dependency injection considered cloud-ready?]
-
-**Open-source.** The community can contribute, view the source, and create custom builds; Microsoft can push small changes to the source before publishing more stable releases to NuGet and before releasing a complete distribution. The advantage is better code faster.
-
-**Client-side friendly.** This includes tooling and syntax. The advantage: client-side developers can use familiar, industry standard tools more easily; client-side standards and libraries can be more easily implemented alongside server-side instructions.
-
-* **Tooling.** Industry standard client-side development tools such as NodeJS, Gulp, Grunt, and Bower replace Microsoft's bundling and minification.
-* **Syntax.** Tag helpers replace `HtmlHelpers` to let ASP.NET code coexist more easily with other HTML attributes such as `class`, `ng-model`, and other attributes we might want to add.
-
-**Flexible, cross-platform development.** We can develop on Mac, Linux, or Windows. The advantage: c'mon. I know soooo many people who would like to develop on a Mac.
-
-**Command-line interface.** More choice in how we develop. While we can still use Visual Studio and its magic, we can also drop down to the command line for more fine-grained control. Some people like the command line.
-
-**Lighter project system.** The project system is opt-in. Everthing in the projects root folder is included in the build unless we explicitly *exclude* it from the project. The advantage: a pithy project file that is easier to manage. Think version control.
 
 [emwac]: http://windowsitpro.com/networking/build-your-own-web-site-less-hour
 [forms-vs-mvc]: http://weblogs.asp.net/shijuvarghese/asp-net-mvc-vs-asp-net-web-form
