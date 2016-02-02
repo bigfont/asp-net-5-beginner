@@ -1,4 +1,4 @@
-# History of ASP.NET Core 1.0
+# History of ASP.NET Core
 
 Dates are approximate.
 
@@ -37,13 +37,20 @@ ASP.NET MVC let us use the power of the .NET Framework with a development model 
 
 ## 2010
 
-OWIN emerges to break the bonds between ASP.NET and IIS and thereby to make "fast and light-weight frameworks and servers." (http://panesofglass.github.io/history-of-owin/#/3)
+[OWIN emerges][history-of-owin] to break the bonds between ASP.NET and IIS and thereby to make "fast and light-weight frameworks and servers."
 
 ## November 2015
 
 Microsoft publishes ASP.NET Core 1.0 RC1.
 
+1. Open source
+1. Modular
+1. Cross platfrom
+1. Package-based development
+1. Unified stack
+1. Performance
 
 
+[history-of-owin]: http://panesofglass.github.io/history-of-owin/#/3
 [emwac]: http://windowsitpro.com/networking/build-your-own-web-site-less-hour
 [forms-vs-mvc]: http://weblogs.asp.net/shijuvarghese/asp-net-mvc-vs-asp-net-web-form
