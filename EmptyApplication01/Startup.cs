@@ -12,7 +12,5 @@ namespace EmptyApplication01
                 await context.Response.WriteAsync("Hello Shaun and Anthony!");
             });
         }
-
-        public static void Main(string[] args) => Microsoft.AspNet.Hosting.WebApplication.Run<Startup>(args);
     }
 }
