@@ -1,11 +1,9 @@
 
 # What does X do? 
 
-## ASP.NET Application Host
+## Server
 
-* start the application
-* invoke its entry point
-* stop the application
+TODO
 
 ## .NET Executable
 
@@ -18,9 +16,33 @@
 7. which loads the common language runtime (CLR), and
 8. invokes the application managed entry point
 
-## Common Language Runtime
+## CLR Native Host
 
+* start the common language runtime (CLR)
+* call the managed entry point
 
+## Common Language Runtime (CLR)
+
+* mediate between native and managed code
+
+## Managed entry point
+
+* set up the loading of assemblies
+* call the application entry point
+
+## WebHostBuilder
+
+* 
+
+## Host (generally speaking)
+
+* start the application
+* invoke its entry point
+* stop the application
+
+## Middleware
+
+TODO
 
 <!-- References -->
 
@@ -29,3 +51,5 @@
 [net-executable01]: http://stackoverflow.com/questions/6605956/what-happens-when-a-net-application-is-started
 
 [net-executable02]: https://msdn.microsoft.com/en-us/library/xh0859k0.aspx
+
+[dnx01]: https://github.com/aspnet/Home/wiki/DNX-structure

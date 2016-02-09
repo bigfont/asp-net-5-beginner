@@ -22,21 +22,21 @@ Visual Studio works on in Windows while Visual Studio Code works also on Linux a
 The remaining choices fit nicely into a grid. 
 
 ```
-DNX                   clr                  mono                coreclr
+Framework           .NET Framework         Mono          .NET Core           
 
-Framework             .NET Framework       Mono                .NET Core            
+Runtime             clr                    mono          coreclr
+                     
+Operating System    Windows                Windows       Windows
+                    -                      Ubuntu        Ubuntu
+                    -                      Debian        Debian
+                    -                      Mac           Mac
+                    -                      Docker        Docker
+                    -                      CentOS        CentOS (soon)
+                    -                      Fedora        Fedora (soon)
 
-Operating System      Windows              Windows             Windows
-                      -                    Ubuntu              Ubuntu
-                      -                    Debian              Debian
-                      -                    Mac                 Mac
-                      -                    Docker              Docker
-                      -                    CentOS              CentOS (soon)
-                      -                    Fedora              Fedora (soon)
-
-Hosting               IIS                  ?                   ASP.NET Host
-                      -                    ?                   OWIN Host 
+Hosting             IIS                    ?             ASP.NET Host
+                    -                      ?             OWIN Host 
                       
-Server                IIS                  ?                   Kestrel (behind IIS or NGINX)
-                                                               OWIN Server (e.g. Nowin)
+Server              IIS                    ?             Kestrel (behind IIS or NGINX)
+                                                         OWIN Server (e.g. Nowin)
 ```
