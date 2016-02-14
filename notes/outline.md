@@ -25,13 +25,37 @@ This is what you get out of the box... it's a familiar albeit different experien
 Question and answer... Okay, so it says Hello World... what now?!
 
     Middleware / Dependency Injection
-        Custom
+        Simple custom middleware to show pipeline
         Diagnostics
         Static Files
         Error Page
         MVC
+    Configuration
+        json
+        environment variables
+    Logging
     Unified Controllers
+        Routing
+        MVC
+    Razor changes
+        await
+        dependency injection
     Tag Helpers
+        HTML Helpers vs Tag Helpers
+        Basic demo
+        Custom Tag Helpers demo (maybe use pre-built solution for this)
+    
+# Pre-built solution
+
+A kitchen sink application to show a few extra features if there is time, or use as an aid when answering questions.
+
+* ASP.NET + MVC
+* Class library
+* Unit tests
+* Client side packages with NPM or Bower
+* Gulp/grunt for copying assets to wwwroot (and bundle/minify?)
+* Custom tag helper
+* Entity Framework? (probably not)
 
 # .NET Framework Publish Options [Optional]
 
@@ -44,4 +68,5 @@ Question and answer... Okay, so it says Hello World... what now?!
 
 * Client side resource building using Node.js
 * Publish to a USB stick and run on Mac.
+* Or commit project to github and pull it back down on a Mac to edit/run
 * Other?
