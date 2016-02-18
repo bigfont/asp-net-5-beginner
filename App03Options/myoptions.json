@@ -1,0 +1,16 @@
+{
+    "option1": "option1val",
+    "option2": [
+        "option2val1",
+        "option2val2",
+        "option2val3"
+    ],
+    "MyObj": [
+        {
+            "Name": "MyObj1"
+        },
+        {
+            "Name": "MyObj2"
+        }
+    ]
+}
