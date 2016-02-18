@@ -1,9 +1,55 @@
 
-# What does X do? 
+# What does X do?
 
-## Server
+## Summary
 
-TODO
+* A server is a *running program* that responds to client requests.
+* A network host is a *physical machine* with a network address.
+
+## Server (and HTTP server)
+
+* A server is a daemon (waiting process)
+* that performs a service for a requester (client)
+* and which often runs on a computer other 
+* than the one that sent the request.
+* An HTTP server serves content using HTTP.
+* The term server often includes the machine on which it runs, 
+* though strictly speaking the machine is the host.
+* https://en.wikipedia.org/wiki/Server_(computing)
+
+## Network Host
+
+* A network host is a physical machine
+* that is connected to a network
+* and that has a network address.
+* It may host a server process.
+
+## Host in MSFT Jargon
+
+**Host Process** starts, manages, and shuts down another process.
+
+**Runtime Host (aka Native CRL Host)** boots the CLR, calls the managed entry point, and shuts down the CLR. 
+
+**Application Host** resolves application dependencies, ...
+
+**ASP.NET Core Hosting Layer** 
+
+* finds the web server on which to run, 
+* finds the applications startup logic,
+* hosts the application on the server,
+* [what does it mean to host an application on a server?] 
+* cleans up on application shutdown. 
+
+**ASP.NET Core Hosting Model**
+
+* Relies on an HTTP server
+* that will surface each request
+* as a set of feature interfaces
+* that ASP.NET can compose into an `HttpContext`.
+
+**"Host Your Application""
+
+
 
 ## .NET Executable
 
@@ -39,6 +85,7 @@ TODO
 * start the application
 * invoke its entry point
 * stop the application
+* i.e. a process, in which an application or server executes
 
 ## Middleware
 
