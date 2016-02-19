@@ -1,4 +1,3 @@
+Demonstrates how to access arbitrary app settings using a plain old CLR object. Also answers [how to use a POCO object to access an array of options in the appsettings.json file on StackOverflow][1].
 
-This is the answer to [this StackOverflow question][1]. It shows "How to use a POCO object to access an array of options in the appsettings.json file (ASP.NET 5)."
-
-[1]: http://stackoverflow.com/a/35489359/1108891
+[1]: http://stackoverflow.com/questions/35486203/how-to-use-a-poco-object-to-access-an-array-of-options-in-the-appsettings-json-f
