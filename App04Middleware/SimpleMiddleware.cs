@@ -23,6 +23,7 @@ namespace App04SimpleMiddleware
                 await ReturnIndexPage(context);
                 return;
             }
+            
             await _next.Invoke(context);
         }
 
