@@ -19,3 +19,5 @@ This talk covers the why and how of ASP.NET Core. We will briefly trace the hist
 **About Anthony Chu:** Anthony has been in web development for 20 years and his current technology stack includes ASP.NET , Angular, Node.js, and Microsoft Azure. He is a system architect at BuildDirect Technologies. He blogs at anthonychu.ca and can be found on Twitter at @nthonyChu.
 
 This repo is a work in progress. If you see anything that doesn't seem quite right, please let us know.
+
+See you soon.
