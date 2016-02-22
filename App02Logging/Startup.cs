@@ -1,18 +1,5 @@
 ﻿namespace App02
 {
-    using Microsoft.AspNet.Mvc;
-    using Microsoft.Extensions.Logging;
-    public class MyController : Controller
-    {
-        public MyController(ILogger logger)
-        {
-            logger.LogInformation("Logging from my controller");
-        }
-    }
-}
-
-namespace App02
-{
     using Microsoft.Extensions.Logging;
     public class MyLoggingProvider : ILoggerProvider
     {
