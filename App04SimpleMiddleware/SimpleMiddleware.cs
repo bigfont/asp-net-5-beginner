@@ -35,14 +35,12 @@ namespace App04
             {
                 context.Response.StatusCode = (int)HttpStatusCode.OK;
                 context.Response.ContentType = "text/html";
-
                 buffer = File.ReadAllBytes(file.FullName);
             }
             else
             {
                 context.Response.StatusCode = (int)HttpStatusCode.NotFound;
                 context.Response.ContentType = "text/plain";
-
                 buffer = Encoding.UTF8.GetBytes("Unable to find the requested file");
             }
 
