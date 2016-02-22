@@ -15,6 +15,13 @@
         "Hosting:Environment": "Development"
       }
     },
+    "IIS Express - Production": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "Hosting:Environment": "Production"
+      }
+    },
     "web": {
       "commandName": "web",
       "environmentVariables": {
