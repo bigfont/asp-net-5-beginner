@@ -1,4 +1,4 @@
-﻿namespace LoggingExample
+﻿namespace App02
 {
     using Microsoft.AspNet.Mvc;
     using Microsoft.Extensions.Logging;
@@ -11,7 +11,7 @@
     }
 }
 
-namespace LoggingExample
+namespace App02
 {
     using Microsoft.Extensions.Logging;
     public class MyLoggingProvider : ILoggerProvider
@@ -28,7 +28,7 @@ namespace LoggingExample
     }
 }
 
-namespace LoggingExample
+namespace App02
 {
     using System;
     using System.IO;
@@ -71,7 +71,7 @@ namespace LoggingExample
     }
 }
 
-namespace LoggingExample
+namespace App02
 {
     using Microsoft.AspNet.Builder;
     using Microsoft.AspNet.Http;

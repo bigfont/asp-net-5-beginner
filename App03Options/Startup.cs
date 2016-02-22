@@ -1,4 +1,4 @@
-﻿namespace OptionsExample
+﻿namespace App03
 {
     using Microsoft.AspNet.Builder;
     using Microsoft.AspNet.Hosting;

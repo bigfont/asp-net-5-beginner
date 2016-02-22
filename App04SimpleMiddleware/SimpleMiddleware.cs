@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System.Net;
 
-namespace App04SimpleMiddleware
+namespace App04
 {
     public class SimpleMiddleware
     {

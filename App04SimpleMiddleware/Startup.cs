@@ -1,7 +1,7 @@
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
 
-namespace App04SimpleMiddleware
+namespace App04
 {
     public class Startup
     {   

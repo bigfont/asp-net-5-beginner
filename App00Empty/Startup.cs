@@ -1,7 +1,7 @@
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
 
-namespace EmptyApplication01
+namespace App00
 {
     public class Startup
     {

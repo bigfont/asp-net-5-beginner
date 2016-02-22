@@ -1,4 +1,4 @@
-namespace OptionsExample
+namespace App03
 {
     public class MyObj
     {
