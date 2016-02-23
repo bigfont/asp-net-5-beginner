@@ -78,8 +78,10 @@ Question and answer... Okay, so it says Hello World... what now?!
         HTML Helpers vs Tag Helpers
         Basic demo
         Custom Tag Helpers demo (maybe use pre-built solution for this)
+        
+# Optional Topics
     
-# Pre-built solution
+## Pre-built solution
 
 A kitchen sink application to show a few extra features if there is time, or use as an aid when answering questions.
 
@@ -91,14 +93,14 @@ A kitchen sink application to show a few extra features if there is time, or use
 * Custom tag helper
 * Entity Framework? (probably not)
 
-# .NET Framework Publish Options [Optional]
+## .NET Framework Publish Options [Optional]
 
     ASP.NET 5
         Full Framework (MSFT)
         Full Framework (Mono)
         Core (MSFT)
 
-# Other Optional Topics / Ideas
+## Misc
 
 * Client side resource building using Node.js
 * Publish to a USB stick and run on Mac.
