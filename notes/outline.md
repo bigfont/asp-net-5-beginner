@@ -24,21 +24,17 @@ This will be in slides, hosted in Office 365.
 
 # Duties  & demos: Things we (developers) must learn
 
-Shaun will be the talker, Anthony will be the demoer. For each item, Shaun will first present theory, and Anthony will then do a demo.
-
-Introduction:
+Introduction: This is what you get out of the box... it's a familiar albeit different experience. What are all of these things?
 
     Visual Studio > New Project > ASP.NET 5 MVC
-
-This is what you get out of the box... it's a familiar albeit different experience. What are all of these things?
-
-    project.json
-    config.json
-    projectName.xproj
-    wwwroot
-    etc
     
-General Process:
+      project.json
+      config.json
+      projectName.xproj
+      wwwroot
+      etc
+    
+After the Introduction:
 
     var topics = new Topic[] { Installation, ProjectSystem, NuGet, ClientSideTooling, Middleware, HostingModel };
     foreach(var t in topics)
