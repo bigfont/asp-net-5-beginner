@@ -14,6 +14,8 @@ This will be in slides, hosted in Office 365.
 
 # Gifts: Awesome things that just work
 
+This is also in slides. 
+
 * 2300% performance improvement.
 * Command line interface. 
 * Open source
@@ -23,6 +25,8 @@ This will be in slides, hosted in Office 365.
 * Built-in dependency injection
 
 # Duties  & demos: Things we (developers) must learn
+
+These are part slides and part demos. 
 
 Introduction: This is what you get out of the box... it's a familiar albeit different experience. What are all of these things?
 
