@@ -12,7 +12,7 @@ This will be in slides, hosted in Office 365.
 * ASP.NET Core
 * See also: http://www.webnotwar.ca/opensource/release-asp-net-meets-challenge/
 
-# Gifts: Awesome things that just work
+# Gifts: Awesome things that just work [Shaun]
 
 This is also in slides. 
 
@@ -24,7 +24,7 @@ This is also in slides.
 * Side-by-side deployment
 * Built-in dependency injection
 
-# Duties  & demos: Things we (developers) must learn
+# Duties  & demos: Things we (developers) must learn [Shaun & Antony]
 
 These are part slides and part demos. 
 
