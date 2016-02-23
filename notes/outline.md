@@ -1,5 +1,8 @@
 # Who are We?
 
+* Hi. I am Shaun and I am a...
+* Hi. I am Anthony and I am a...
+
 # Brief History of ASP.NET [Shaun]
 
 This will be in slides, hosted in Office 365.
