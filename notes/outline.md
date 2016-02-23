@@ -1,14 +1,31 @@
-# The History of ASP.NET [Shaun]
+# Who are We?
 
-This will be in slides, hosted in Office 365
+# Brief History of ASP.NET [Shaun]
+
+This will be in slides, hosted in Office 365.
 
 * Web Forms
 * MVC
 * ASP.NET Core
+* See also: http://www.webnotwar.ca/opensource/release-asp-net-meets-challenge/
 
-# Anatomy of a Project [Shaun]
+# Gifts: Awesome things that just work
 
-    New Project > ASP.NET 5 MVC
+* 2300% performance improvement.
+* Command line interface. 
+* Open source
+* Modular (more frequent & relevant releases)
+* Cross Platform
+* Side-by-side deployment
+* Built-in dependency injection
+
+# Duties  & demos: Things we (developers) must learn
+
+Shaun will be the talker, Anthony will be the demoer. For each item, Shaun will first present theory, and Anthony will then do a demo.
+
+Introduction:
+
+    Visual Studio > New Project > ASP.NET 5 MVC
 
 This is what you get out of the box... it's a familiar albeit different experience. What are all of these things?
 
@@ -17,8 +34,22 @@ This is what you get out of the box... it's a familiar albeit different experien
     projectName.xproj
     wwwroot
     etc
+    
+General Process:
 
-# Let's build this up [Anthony]
+    var topics = new Topic[] { Installation, ProjectSystem, NuGet, ClientSideTooling, Middleware, HostingModel };
+    foreach(var t in topics)
+    {
+        Shaun.Present(Theory);
+        Anthony.Present(Demo);
+    }
+
+# Let's build this up, no IDE [Shaun]
+
+* With the command line and notepad, 
+* Shaun will hand code a minimal ASP.NET Core project. 
+
+# Let's build this up, with IDE [Anthony]
 
     New Project > Empty
 
