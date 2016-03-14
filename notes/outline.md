@@ -7,8 +7,12 @@
 
 This will be in slides, hosted in Office 365.
 
-* Web Forms
-* MVC
+* Tim Berners-Lee & EMWAC
+* IIS
+* ASP
+* ASP.NET 1.0
+* ASP.NET MVC
+* OWIN
 * ASP.NET Core
 * See also: http://www.webnotwar.ca/opensource/release-asp-net-meets-challenge/
 
@@ -16,13 +20,14 @@ This will be in slides, hosted in Office 365.
 
 This is also in slides. 
 
+* Open source
 * 2300% performance improvement.
 * Command line interface. 
-* Open source
-* Modular (more frequent & relevant releases)
 * Cross Platform
+* Out-of-band shipping.
 * Side-by-side deployment
 * Built-in dependency injection
+* Modular (more frequent & relevant releases - this is really part of Middleware & packages)
 
 # Duties  & demos: Things we (developers) must learn [Shaun & Antony]
 

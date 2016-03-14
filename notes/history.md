@@ -1,3 +1,23 @@
+# Writeup
+
+ASP.NET Core is the newest release of ASP.NET. It is open-source. That is because the software development community challenged Microsoft to release it as open-source, and because ASP.NET continues to meet customers’ challenges. If we want to understand something, we need to look at its history. Exploring the Core release over the past months, I have noted key challenges over time.
+
+For those with some ASP.NET experience, here is my sense of the more important history points.
+
+In 1980, Tim Berners-Lee starts to tinker with existing hypertext technology, in order to link together related documents at CERN. By 1991, the first web servers go online outside of CERN, to share documents over the Internet, using Berners-Lee’s technology.
+
+In 1996, IIS 1.0 handles the heavy traffic to Microsoft.com which the EMWAC web server couldn’t manage. Later in 1996, ASP 1.0 dynamically generates web page to allow for HTML templates. Microsoft’s IIS/ASP stack is born!
+
+In 2002, ASP.NET 1.0 harnesses the object-oriented power of the .NET Framework to manage web app complexity, and provides a familiar experience to help Windows Forms devs transition to web dev.
+
+In 2009, ASP.NET MVC enables unit testing via separation of concerns, enhances search engine optimization via REST-based URLS, and empowers developers to write standard-compliant HTML. Developers now have an ASP.NET that is built for the Web.
+
+In 2010, OWIN specifies how to decouple the application from the server, and paves the way for developers to run a faster, leaner ASP.NET (with or) without IIS. This in my humble opinion is the harbinger of ASP.NET Core.
+
+In 2016, ASP.NET Core embraces the developer preference for open-source, provides abstractions that bring OWIN’s benefits while easing their use, supports cross-platform development and deployment, goes all package-based development to ease the sharing and re-use of code, unifies the stack to focus the efforts of the ASP.NET and .NET teams, (those two mean more frequent ASP.NET Core releases,) and drastically improves its performance to decrease the RAM and CPU cost of cloud hosting.
+
+That is my (limited) understanding of the challenges that the ASP.NET team has met over the years. If you see anything that doesn’t look quite right or do not see something that I missed, let me know, and I would be happy to add it, with credit to you.
+
 # History of ASP.NET Core
 
 Dates are approximate.
