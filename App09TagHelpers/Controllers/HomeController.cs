@@ -3,36 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
+using App08TagHelpers.ViewModels;
 
 namespace App08TagHelpers.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
-        {
-            return RedirectToAction("TagHelpers");
-        }
+        public IActionResult Index() => View();
 
-        public IActionResult TagHelpers()
-        {
-            return View();
-        }
+        public IActionResult TagHelpers() => View();
 
-        public IActionResult HtmlHelpers()
-        {
-            return View();
-        }
+        public IActionResult HtmlHelpers() => View();
 
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
+        public IActionResult CustomTagHelper(IndexViewModel indexVm) => View(indexVm);
 
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View();
-        }
+        public IActionResult Error() => View();
     }
 }
